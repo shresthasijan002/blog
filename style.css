@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.font-serif {
+  font-family: "Playfair Display", serif;
+}
+
+.article-body {
+  font-family: "Merriweather", serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1c7b7;
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #33363e;
+}
+
+/* Drop cap styling */
+.dropcap::first-letter {
+  font-family: "Playfair Display", serif;
+  font-size: 3.8rem;
+  line-height: 0.8;
+  float: left;
+  margin-right: 0.75rem;
+  margin-top: 0.2rem;
+  font-weight: 700;
+  color: #191a1d;
+}
+
+.dark .dropcap::first-letter {
+  color: #fbf8f1;
+}
